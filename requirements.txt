@@ -1,0 +1,7 @@
+streamlit
+pg8000
+python-dotenv
+pandas
+plotly
+python-dateutil
+sqlalchemy

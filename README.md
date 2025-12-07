@@ -116,7 +116,7 @@ The application will open in your browser at http://localhost:8501
 
 ## **Viewing Summary**
 
-### **Click "Show Summary" button and see insights**  
+### **Click "Show Summary" button and see insights.**  
 **View four key insights:** 
 - **Total Expense:** Overall spending amount
 - **Category Breakdown:** Pie chart showing distribution

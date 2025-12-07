@@ -39,7 +39,7 @@ A Streamlit-based expense tracking application with a PostgreSQL backend for man
 - Git
 - pip
 
-## **Installation **
+## **Installation**
 
 ### **1. Clone the Repository**
 
@@ -116,9 +116,8 @@ The application will open in your browser at http://localhost:8501
 
 ## **Viewing Summary**
 
-### **Click "Show Summary" button**
-
-## **View four key insights:** 
+### **Click "Show Summary" button and see insights**  
+**View four key insights:** 
 - **Total Expense:** Overall spending amount
 - **Category Breakdown:** Pie chart showing distribution
 - **Highest/Lowest:** Categories with most and least spending
@@ -134,17 +133,17 @@ The application will open in your browser at http://localhost:8501
 ## **Testing**
 ### **Manual Testing**
 
-1. **Test Data Entry:**
+**1. Test Data Entry:**
 
--Add valid expense → Should show success message
--Add duplicate expense → Should show "Already recorded"
+- Add valid expense → Should show success message
+- Add duplicate expense → Should show "Already recorded"
 
-2. **Test Visualizations:**
+**2. Test Visualizations:**
 
 - Click "Show Summary" with no data → Should show appropriate messages
 - Add data and check summary → Should display all 4 visualizations
 
-3. **Database Connection Test:**
+**3. Database Connection Test:**
 ```bash
 - test_db.py
 ```
@@ -152,18 +151,18 @@ The application will open in your browser at http://localhost:8501
 ## **Troubleshooting**
 ### **Common Issues**
 
-### ** 1. Database Connection Failed:**
+**1. Database Connection Failed:**
 
 - Check PostgreSQL is running
 - Verify credentials in .env file
 - Ensure database and table exist
 
-### ** 2. Import Errors:** 
+**2. Import Errors:** 
 
 - Activate virtual environment
 - Run pip install -r requirements.txt
 
-### ** 3. Blank Streamlit Page:**
+**3. Blank Streamlit Page:**
 
 - Check terminal for errors
 - Try hard refresh (Ctrl+F5)
